@@ -1,5 +1,10 @@
 # 🧑‍🔬 PeopleLaserCounter
 
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+
 ## 🎯 Objectif du projet
 
 Système de comptage de personnes utilisant des **capteurs analogiques** (comme des lasers ou photodiodes) et une **carte Arduino**. Il permet de **détecter** et **compter** les passages à l’entrée et à la sortie d’un lieu.
@@ -76,15 +81,25 @@ Initialement, le projet devrait être mis sur un seul PCB. Mais ce dernier peut 
 
 Liste du matériel utilisé : 
 
-- 2 alimentations 220V vers 12V (1A suffit pour le modules avec les lasers, il faut compteur 2A pour le module LEDs mais cela dépend aussi du nombre de LEDs par segment)
+- 2 alimentations 220V vers 12V (1A suffit pour le modules avec les lasers, il faut compteur plus pour le module LEDs mais cela dépend aussi du nombre de LEDs par segment)
 - 2 Arduino UNO
 - 2 modules HCW-P715 (12V vers 5V)
 - Des LEDs adressables compatibles Arduino
 - Un émetteur et récepteur radio fréquence 433Mhz compatible Arduino
 - Des boutons, du fil, des cosses et des connecteurs divers (type jst xh en 2.54mm)
 
+
 --- 
 
 ## 🧩 Les fichiers 3D STL
 
-TODO
+Vous pouvez trouver des boitiers pour impressions 3D dans le dossier [STL](/STL/)
+
+Des inserts filetés pour vis M5 sont utilisés afin de fermer le boitier.
+
+Les fichiers concernant l'affichage des nombres provient de ce projet : https://github.com/leonvandenbeukel/7-Segment-Digital-Clock-V2
+
+
+![3DModel](STL/3DModelFusion.png)
+
+
