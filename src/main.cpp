@@ -53,7 +53,7 @@ void scheduleNextSend()
 void setup()
 {
   mySwitch.enableTransmit(PIN_RC);
-  mySwitch.setPulseLength(400);
+  mySwitch.setPulseLength(350);
   mySwitch.setProtocol(1);
   mySwitch.setRepeatTransmit(10);
   Serial.begin(9600);
